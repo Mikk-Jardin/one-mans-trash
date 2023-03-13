@@ -1,0 +1,15 @@
+Cython
+h5py==2.10.0
+imgaug==0.4.0
+IPython
+Keras==2.0.8
+matplotlib==3.5.3
+mrcnn==0.2
+numpy==1.20.0
+opencv-python-headless==4.7.0.72
+Pillow==9.4.0
+pycocotools==2.0.1
+scikit-image==0.16.2
+scipy==1.7.3
+streamlit==1.19.0
+tensorflow==1.15.0
