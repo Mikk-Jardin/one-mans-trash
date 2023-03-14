@@ -43,6 +43,7 @@ The goal of the project was to learn how to leverage a deep learning model I've 
 
 - The detection model's accuracy - the model sometimes detects obscure figures in the background of the image and attempts to classify them. This can be improved by gathering more/better data, training the model for longer, and increasing the prediction confidence threshold.
 - Model serving - currently, the model is served directly on the frontend in streamlit which means that users will also have to wait for the model to build and load on top of making the prediction. A future version could use model artifact served on GCP's AI Platform that's called using an api.
+- Automated testing
 
 ## Screenshots
 ![Detected plastic bottles](screenshots/screenshot_4.png)
