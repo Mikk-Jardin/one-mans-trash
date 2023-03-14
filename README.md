@@ -35,6 +35,8 @@ Works on laptops, tablets, and mobile devices!
 
 **Modelling**: Tensorflow, keras, sci-kitlearn
 
+**Containerization**: Docker
+
 ## Improvements
 
 The goal of the project was to learn how to leverage a deep learning model I've never worked with before, package it into a web application, and deploy it to the cloud. Although I was able to accomplish those goals with this projects, there are a lot of improvements that could be made:
