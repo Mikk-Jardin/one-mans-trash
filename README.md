@@ -22,11 +22,18 @@ Works on laptops, tablets, and mobile devices!
 
 1. Click the link in the *Demo* section
 2. Once the web application has loaded, click the `Browse files` button and upload an image of some trash you have.
-[Web app home screen](screenshots/screenshot_1.png)
+![Web app home screen](screenshots/screenshot_1.png)
 3. Once the image has been uploaded, click the `Detect Trash` button.
-[Uploaded image and detection loading](screenshots/screenshot_2.png)
+![Uploaded image and detection loading](screenshots/screenshot_2.png)
 4. The final output should be an estimate of how much your trash is worth and a processed image of your upload showing what it detected.
-[Final output](screenshots/screenshot_3.png)
+![Final output](screenshots/screenshot_3.png)
+
+## Tech Stack
+**Frontend**: Streamlit
+
+**CLoud Services**: Google Cloud Run, Google Cloud Container Registry
+
+**Modelling**: Tensorflow, keras, sci-kitlearn
 
 ## Improvements
 
@@ -36,8 +43,8 @@ The goal of the project was to learn how to leverage a deep learning model I've 
 - Model serving - currently, the model is served directly on the frontend in streamlit which means that users will also have to wait for the model to build and load on top of making the prediction. A future version could use model artifact served on GCP's AI Platform that's called using an api.
 
 ## Screenshots
-[Detected plastic bottles](screenshots/screenshot_4.png)
-[Detected coffee table items](screenshots/screenshot_5.png)
+![Detected plastic bottles](screenshots/screenshot_4.png)
+![Detected coffee table items](screenshots/screenshot_5.png)
 
 ## Acknowledgements
 
